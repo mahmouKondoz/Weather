@@ -61,7 +61,7 @@ ul{
 }
 
 .photo{
-    background-image: url(../photos/banner.jpg);
+    background-image: url(../images/banner.jpg);
     background-size: cover;
     height:350px;
 }

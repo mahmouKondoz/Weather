@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1e202b;
+}
+nav{
+    box-shadow: 0 0 30px #009ad8;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5;
+}
+ul{
+    list-style: none;
+}
+
+.home{
+    width: 90px;
+    height: 30px;
+    border: 2px solid #009ad8;
+    border-radius: 20px;
+}
+.homes ,.homeLive{
+     width: 90px;
+    height: 30px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+.homes a{
+    transition: all 0.5s;
+}
+
+
+.homes:hover{
+
+    border-color: #009ad8;
+   
+
+}
+
+.homes:hover a{
+    color: #009ad8 !important;
+}
+
+
+.homeLive:hover{
+    border-color: #009ad8;
+    width: 120px;
+
+
+
+}
+.homeLive:hover a{
+   color: #009ad8;
+   
+}
+
+.photo{
+    background-image: url(../photos/banner.jpg);
+    background-size: cover;
+    height:350px;
+}
+
+input{
+    height: 60px;
+    border: 3px solid transparent !important;
+    border-radius: 30px !important;
+    margin-top: 60px;
+    background-color:#1e202b !important ;
+}
+
+input:focus{
+    box-shadow: 0 0 5px transparent !important;
+    color: white !important;
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.66) !important;
+    font-size: 15px;
+}
+
+button{
+    
+    top: 20%;
+    left: 80%;
+}
+
+h5{
+    font-size: 70px;
+        
+}
+
+.row{
+    top: 30%;
+    right: 10%;
+}
+
+.btn1{
+    top: 59%;
+    left: 68%;
+}
+
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
